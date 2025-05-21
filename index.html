@@ -87,19 +87,20 @@
         }
 
         #child {
-            position: fixed;
-            top: 49%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 10;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-         }   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+}
 
 h4 {
     font-family: "STKaiti", serif;
-    font-size: 40px;
+    font-size: 3vw; /* responsive font size */
     color: #f584b7;
     margin: 0;
 }
